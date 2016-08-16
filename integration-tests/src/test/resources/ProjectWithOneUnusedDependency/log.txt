@@ -1,0 +1,62 @@
+[INFO] Error stacktraces are turned on.
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building simple 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-cli) @ simple ---
+[INFO] Deleting /home/alex/Dev/gitProjects/bachelorthesis/integration-tests/src/test/resources/ProjectWithOneUnusedDependency/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/alex/Dev/gitProjects/bachelorthesis/integration-tests/src/test/resources/ProjectWithOneUnusedDependency/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /home/alex/Dev/gitProjects/bachelorthesis/integration-tests/src/test/resources/ProjectWithOneUnusedDependency/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/alex/Dev/gitProjects/bachelorthesis/integration-tests/src/test/resources/ProjectWithOneUnusedDependency/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ simple ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ simple ---
+[INFO] Building jar: /home/alex/Dev/gitProjects/bachelorthesis/integration-tests/src/test/resources/ProjectWithOneUnusedDependency/target/simple-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- BachelorThesis-Mojo:1.0-SNAPSHOT:check (default) @ simple ---
+RepoSystem: org.eclipse.aether.internal.impl.DefaultRepositorySystem@6dd82486
+RepoSession: org.eclipse.aether.DefaultRepositorySystemSession@56078cea
+Repos: (central (https://repo.maven.apache.org/maven2, default, releases))
+Artifacts: (junit:junit:jar:4.12:compile, org.hamcrest:hamcrest-core:jar:1.3:compile, org.apache.sling:org.apache.sling.servlets.post:jar:2.2.0:compile)
+0    [main] INFO  castendyck.dependencygraphing.graphfetching.internal.DependencyGraphFetcherImpl  - Fetching Graph for AetherRootDependency:
+2    [main] INFO  castendyck.dependencygraphing.graphfetching.internal.DependencyGraphFetcherImpl  -    Root:BachelorThesis-Tests:simple:1.0-SNAPSHOT
+5    [main] INFO  castendyck.dependencygraphing.graphfetching.internal.DependencyGraphFetcherImpl  -    1lv deps:(junit:junit::4.12 (), org.apache.sling:org.apache.sling.servlets.post::2.2.0 ())
+2572 [main] INFO  CveImporterImpl  - Dependencies: (junit-4.12.jar, hamcrest-core-1.3.jar, org.apache.sling.servlets.post-2.2.0.jar)
+[INFO] Checking for updates
+[INFO] NVD CVE requires several updates; this could take a couple of minutes.
+[INFO] Download Started for NVD CVE - 2002
+[INFO] Download Started for NVD CVE - 2012
+[INFO] Download Started for NVD CVE - 2013
+[INFO] Download Complete for NVD CVE - 2002  (10299 ms)
+[INFO] Download Started for NVD CVE - 2014
+[INFO] Processing Started for NVD CVE - 2002
+[INFO] Download Complete for NVD CVE - 2013  (11753 ms)
+[INFO] Download Started for NVD CVE - 2015
+[INFO] Download Complete for NVD CVE - 2012  (11829 ms)
+[INFO] Download Started for NVD CVE - 2016
+[INFO] Download Complete for NVD CVE - 2016  (4098 ms)
+[INFO] Download Started for NVD CVE - Modified
+[INFO] Download Complete for NVD CVE - Modified  (966 ms)
+[INFO] Download Complete for NVD CVE - 2015  (6208 ms)
+[INFO] Download Complete for NVD CVE - 2014  (10637 ms)
+[INFO] Processing Complete for NVD CVE - 2002  (31027 ms)
+[INFO] Processing Started for NVD CVE - 2013
+[INFO] Processing Complete for NVD CVE - 2013  (69815 ms)
+[INFO] Processing Started for NVD CVE - 2012

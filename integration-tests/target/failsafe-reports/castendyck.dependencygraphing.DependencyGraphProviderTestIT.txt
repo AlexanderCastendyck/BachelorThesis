@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: castendyck.dependencygraphing.DependencyGraphProviderTestIT
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.686 sec

@@ -1,0 +1,5 @@
+<suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns="https://www.owasp.org/index.php/OWASP_Dependency_Check_Suppression"
+              xsi:schemaLocation="https://www.owasp.org/index.php/OWASP_Dependency_Check_Suppression https://raw.githubusercontent.com/jeremylong/DependencyCheck/v1.3.3/dependency-check-core/src/main/resources/schema/suppression.xsd">
+
+</suppressions>

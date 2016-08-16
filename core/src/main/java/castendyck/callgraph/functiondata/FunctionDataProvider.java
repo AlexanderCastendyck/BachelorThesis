@@ -1,0 +1,15 @@
+package castendyck.callgraph.functiondata;
+
+import castendyck.functionidentifier.FunctionIdentifier;
+import castendyck.functioninformation.CallGraphFunctionInformation;
+import castendyck.functioninformation.DataFlowFunctionInformation;
+import castendyck.functioninformation.GeneralFunctionInformation;
+
+public interface FunctionDataProvider {
+    GeneralFunctionInformation provideFunctionInformation(FunctionIdentifier functionIdentifier);
+
+    CallGraphFunctionInformation provideControlFlowInformation(FunctionIdentifier functionIdentifier) throws CouldNotExtractCalledFunctionsOutOfClassException;
+
+    DataFlowFunctionInformation provideDataFlowInformation(FunctionIdentifier functionIdentifier);
+
+}
