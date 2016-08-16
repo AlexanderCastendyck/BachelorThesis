@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: castendyck.vulnerablepoint.cveinterpreting.internal.CveInterpreterDefaultImplTestIT
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.391 sec
